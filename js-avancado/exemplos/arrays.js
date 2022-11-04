@@ -98,3 +98,12 @@ console.log(cres)
 
 const desc = num.sort((a, b) => b - a)
 console.log(desc)
+
+//5 - reduce - reduz nosso array a um resultado de uma operação matemática
+const numbers = [1, 34, 35]
+
+const soma = numbers.reduce((valorAnterior, valorAtual) => {
+  return valorAnterior + valorAtual
+})
+
+console.log(soma)
